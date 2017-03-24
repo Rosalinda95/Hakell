@@ -16,7 +16,7 @@ maxNum x y z = max x (max y z)
 
 -- Ejercicio 5. Rotar lista
 
-rota n xs = drop n xs ++ take n xs 
+rota n ab = drop n ab ++ take n ab 
 
 -- Ejercicio 6. suma de los cubos de los primeros n números
 
