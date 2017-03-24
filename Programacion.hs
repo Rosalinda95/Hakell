@@ -8,7 +8,7 @@ areaDeCoronaCircular r1 r2 = pi*(r2^2 -r1^2)
 
 -- Ejercicio 3. Numeros impares empezando desde el numero 13
 
-impTrece = [13,15..29]
+impTrece = take 10 [13,15..]
 
 -- Ejercicio 4. Determinar el numero mayor entre 3 numeros
 
@@ -28,7 +28,7 @@ sumaCuadrados n=  [x*x | x <- [1..n], x*x > 100]
 
 -- Ejercicio 8. n numeros entre 20 y 60
 
-rango = [x | x <- [20..60]]
+rango n = [x | x <- [1..n], x>=20, x<60]
 
 
 -- Ejercicio 9. argumentos de tipo Double para calcular la hipotenusa de un triángulo rectángulo y retorne un valor de tipo Double.
