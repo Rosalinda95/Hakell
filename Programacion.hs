@@ -1,14 +1,14 @@
-﻿--Ejercicio 1. Definir la función media3 tal que (media3 x y z) es
+﻿--Ejercicio 1. obtener la media de 3 números.
 
-media3 x y z = (x+y+z)/3
+media x y z = (x+y+z)/3
 
--- Ejercicio 2. Definir la función areaDeCoronaCircular tal que 
+-- Ejercicio 2. obtener el volumen de una esfera
 
 areaDeCoronaCircular r1 r2 = pi*(r2^2 -r1^2) 
 
 -- Ejercicio 3. Numeros impares empezando desde el numero 13
 
-impTrece n = [13,15..n]
+impTrece = [13,15..29]
 
 -- Ejercicio 4. Determinar el numero mayor entre 3 numeros
 
@@ -21,10 +21,6 @@ rota n xs = drop n xs ++ take n xs
 -- Ejercicio 6. suma de los cubos de los primeros n números
 
 sumaCubos n = sum [x*x*x | x <- [1..n]]
-
--- Ejercicio 6.1. muestra de cubos
-
-listaCubos = [x*x*x | x <- [1..n]]
 
 -- Ejercicio 7. cuadrados de n números mayores a 100.
 
